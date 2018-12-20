@@ -10,4 +10,10 @@ getIt = function(){
   })
 }
 
+friameIt = function(){
+  $('img').on('load', function(){
+    $(this).addClass('tasty');
+  })
+}
+
 });
