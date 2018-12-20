@@ -4,8 +4,10 @@ $(document).ready(function(){
 
 // call functions here
 
-getIt = $('p').on('click', function(){
+getIt = function(){
+  $('p').on('click', function(){
     alert('Hey!')
-})
+  })
+}
 
 });
