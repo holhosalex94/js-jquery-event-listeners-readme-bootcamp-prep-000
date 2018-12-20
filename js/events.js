@@ -10,7 +10,7 @@ getIt = function(){
   })
 }
 
-friameIt = function(){
+frameIt = function(){
   $('img').on('load', function(){
     $(this).addClass('tasty');
   })
