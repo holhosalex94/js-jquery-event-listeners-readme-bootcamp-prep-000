@@ -16,4 +16,10 @@ frameIt = function(){
   })
 }
 
+pressIt = function(){
+  $('input').on('keydown', function(){
+    $(this).addClass('tasty');
+  })
+}
+
 });
