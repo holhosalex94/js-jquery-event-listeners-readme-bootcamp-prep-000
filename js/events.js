@@ -18,7 +18,7 @@ frameIt = function(){
 
 pressIt = function(){
   $('input').on('keydown', function(){
-    if (key.which == 13){
+    if (key.which == 71){
       alert('enter was pressed');
     }
   })
